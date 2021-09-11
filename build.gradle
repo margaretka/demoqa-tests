@@ -8,9 +8,12 @@ repositories {
 
 dependencies {
     testImplementation (
-            "com.codeborne:selenide:5.20.3",
-            "org.junit.jupiter:junit-jupiter-api:5.7.1")
-    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.1"
+            "com.codeborne:selenide:5.24.0",
+            "org.junit.jupiter:junit-jupiter-api:5.7.1") // ядро
+    testRuntimeOnly (
+        "org.slf4j:slf4j-simple:1.7.29" ,
+        "org.junit.jupiter:junit-jupiter-engine:5.7.1" //чтобы из консоли, ide и jenkins работало одинаково
+    )
 }
 
 test {
