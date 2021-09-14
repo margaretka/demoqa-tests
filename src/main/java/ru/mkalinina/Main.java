@@ -1,4 +1,4 @@
-package guru.qa;
+package ru.mkalinina;
 
 public class Main {
     public static void main(String[] args) {

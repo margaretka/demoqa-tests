@@ -1,4 +1,4 @@
-package guru.qa.docs;
+package ru.mkalinina.docs;
 
 import org.junit.jupiter.api.*;
 
